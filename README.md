@@ -1,16 +1,39 @@
-# React + Vite
+# Course Finder - Mini React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Course Finder** mini application built with **React**, **Vite**, and **Tailwind CSS**.  
+Users can search courses by **name** or **category**. The app also fetches a small piece of dynamic data from a **public API** (motivational quote) to fulfill the assignment requirement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Features
 
-## React Compiler
+- Display a list of courses with **name** and **category**.
+- **Search bar** to filter courses by name or category.
+- **Dynamic data** fetched from a public API:
+  - Motivational quote from [DummyJSON Quotes API](https://dummyjson.com/quotes/random)
+- **Responsive layout**:
+  - Desktop: 1600px x 900px
+  - Mobile: 414px x 749px
+- Built using **React** (component-based structure)
+- Styled using **Tailwind CSS**
+- Easy deployment with **Vercel** or **Surge**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔹 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18**
+- **Vite 7**
+- **Tailwind CSS 4**
+- **DummyJSON Quotes API** (dynamic quote)
+- **Vercel / Surge** (deployment)
+
+---
+
+## 🔹 Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd course-finder
